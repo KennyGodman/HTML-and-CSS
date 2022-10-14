@@ -1,0 +1,269 @@
+.body{
+    background-image:url("../assets/img_24.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 1%;
+    padding-bottom: 50px;
+    width: 100vw;
+}
+.logo{
+    font-family: 'kaushan Script', serif;
+    color: white;
+    font-size: 25px;
+    margin-top: -5px;
+}
+.navbars{
+    color: white;
+    font-family: 'poppins', serif;
+    font-weight: 500;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+.nav-btn{
+    border: 2px solid white;
+    border-radius: 25%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    padding-top: 30px;
+}
+.main-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    font-family: 'poppins', serif;
+    font-size: 12px;
+}
+.main-subtext{
+    color: white;
+    font-family: 'poppins', serif;
+    font-weight: 500;
+    font-size: 12px;
+    width: 40%;
+}
+.main-header{
+    color: white;
+    font-family: 'poppins', serif;
+    font-weight: 600;
+    width: 60%;
+
+}
+.hero{
+    width: 90%;
+    margin: auto;
+}
+.beaches{
+    color: white;
+    font-size: 10px;
+    font-family: 'kaushan Script', serif;
+}
+.sec2-bg{
+    background-color: white;
+    opacity: 0.5;
+    height: 70px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+.sec2-sub{
+    display: flex;
+    column-gap: 18%;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'poppins', serif;
+    padding-top: 2px;
+    padding-left: 25px;
+}
+.sec3-btn{
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'poppins', serif;
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 50px;
+    border: none;
+}
+.secHeader{
+    font-family: 'kaushan Script', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.best{
+    color: orange;
+}
+.dest{
+    color: rgb(24, 24, 24);
+}
+.sec-sunHeader{
+    width: 50%;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'poppins', serif;
+}
+.sec-sunHeader-content{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    height: 250px;
+    width: 20%;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 5px rgb(209, 255, 209);
+}
+/*.card3{*/
+/*    width: 13%;*/
+/*    border-radius:20px;*/
+/*    height: 180px;*/
+/*    border: none;*/
+/*}*/
+.card-content{
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+    margin-top: 40px;
+    font-family: poppins, serif;
+}
+.card-text{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 30px;
+}
+.secHeader2{
+    display: flex;
+    justify-content: space-around;
+    width:70%;
+    font-family: 'kaushan Script';
+    margin: 50px auto 50px auto;
+    align-items: center;
+}
+.card-content1{
+    width: 80%;
+    font-family: poppins;
+}
+.card-box{
+    display: flex;
+    justify-content:center;
+    width: 40%;
+    font-family: poppins;
+}
+.card2{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 5px rgb(209, 255, 209);
+    text-align: center;
+    position: relative;
+}
+#date{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 12px;
+}
+#image{
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    left: 0;
+}
+#file{
+    color: orange;
+}
+
+.trip{
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    bottom: 20px;
+    right: -20%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.icon-one{
+    display: flex;
+    align-items: center;
+}
+.icontruckone{
+    background-color: yellow;
+    text-align: center;
+    padding: 3%;
+    border-radius: 10px;
+}
+.icontrucktwo{
+    background-color: red;
+    text-align: center;
+    padding: 3%;
+    border-radius: 10px;
+}
+.icontruckthree{
+    background-color: blue;
+    text-align: center;
+    padding: 3%;
+    border-radius: 10px;
+}
+.icon-one-content{
+    padding-left: 20px;
+    font-size: 12px;
+    width: 50%;
+
+}
+.headtext{
+    text-align: center;
+    font-family: 'kaushan Script', serif;
+    margin-top:2px;
+}
+.headtext-one{
+    color: orange;
+}
+#birthday{
+    text-align: left;
+}
+input{
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 350px) {
+    .main-header{
+        width: 100%;
+        font-size: 9px;
+    }
+    .main-subtext{
+        width: 100%;
+        font-size: 7px;
+    }
+    .main-btn{
+        font-size: 5px;
+        font-weight: 900;
+        padding: 5px;
+    }
+    .logo,.nav-btn{
+        font-size: 10px!important;
+    }
+    .nav-btn{
+        padding: 4px;
+        position: absolute;
+        top: 21px;
+        right: 10px;
+    }
+}
