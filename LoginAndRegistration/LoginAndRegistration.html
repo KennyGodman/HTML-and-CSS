@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login and Registration Form</title>
+  <link rel="stylesheet" href="./LoginAndRegistration.css">
+</head>
+<body>
+<div class="heroes">
+  <div class="form-box">
+      <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+          <button type="button" class="toggle-btn" onclick="register()">Register</button>
+      </div>
+      <div class="social-icons">
+          <img src="../assets/img_17.png">
+          <img src="../assets/img_18.png">
+          <img src="/assets/img_19.png">
+      </div>
+      <form id="LogIn" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="text" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="check-box"><span>Remember Password</span>
+          <button type="submit" class="submit-btn">Log In</button>
+      </form>
+      <form id="Register" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="email" class="input-field" placeholder="Email Address" required>
+          <input type="text" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="check-box"><span>I agree with the terms and conditions</span>
+          <button type="submit" class="submit-btn">Register</button>
+      </form>
+  </div>
+
+</div>
+<script src="./LoginAndRegistration.js"></script>
+</body>
+</html>
