@@ -1,0 +1,54 @@
+/*.Red1,.Red2{*/
+/*    width: 300px;*/
+/*    height: 150px;*/
+/*    background-color: red;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    padding: 20px;*/
+/*    margin: 20px 20px 20px 150px;*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+/*    border-radius: 20px;*/
+/*}*/
+/*.Red2 {*/
+/*    height: 70px;*/
+/*    background-color: blue;*/
+/*    margin: 20px;*/
+/*    border-radius: unset;*/
+/*}*/
+
+*{
+    box-sizing: border-box;
+}
+.Rec1{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+.Rec2 > div {
+    height: 150px;
+    background-color: blue;
+    margin: 5px;
+    width: calc(33% - 10px);
+    display: inline-block;
+
+}
+.Rec3 {
+
+    background-color: dimgrey;
+    margin: 10px;
+    display: inline-block;
+    width: calc(50% - 25px);
+    padding: 10px;
+}
+.Rec4{
+    width: 100%;
+    background-color: darkred;
+    margin-top: 10px;
+}
+.Rec5{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    margin: 5px;
+}

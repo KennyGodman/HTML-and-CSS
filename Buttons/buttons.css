@@ -1,0 +1,157 @@
+.subscribe-button{
+    background-color: #c80000;
+   color: white;
+   border: none;
+
+   border-radius: 5px;
+   cursor: pointer;
+   margin-right: 8px ;
+   transition: opacity 0.15s;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 16px;
+   padding-right: 16px;
+ }
+
+ .subscribe-button:hover{
+     opacity: 0.8;
+ }
+ .subscribe-button:active{
+     opacity: 0.5;
+ }
+ .join-button{
+     background-color: white;
+     border-color: #2976d3;
+     border-style: solid;
+     border-width: 1px;
+     color: #2976d3 ;
+     height: 36px;
+     width: 62px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-right: 8px;
+     transition: background-color 0.15s, color 0.15s;
+ }
+ .join-button:hover{
+     background-color: #2976d3;
+     color: white;
+ }
+ .join-button:active{
+     opacity: 0.7
+ ;
+ }
+ .tweet-button{
+     background-color: #029eff;
+     color: white;
+     border: none;
+     height: 36px;
+     width: 74px;
+     border-radius: 18px;
+     font-weight: bold;
+     font-size: 15px;
+     cursor: pointer;
+     margin-left: 8px;
+     margin-right: 8px;
+     transition: box-shadow 0.15s;
+
+ }
+ .tweet-button:hover{
+     box-shadow: 5px 10px 5px  rgba(0,0,0,0.15);
+     opacity: 0.8;
+ }
+ .tweet-button:active{
+     opacity: 0.5;
+ }
+ .share-button{
+     background-color: Yellow;
+     border-color: rgba(0, 0, 0, 0.61);
+     border-style: solid;
+     border-width: 1px;
+     color: #2976d3 ;
+     height: 36px;
+     width: 62px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-right: 8px;
+ }
+ .share-button:hover {
+     opacity: 0.8;
+ }
+ .share-button:active {
+     opacity: 0.5;
+ }
+ .add-to-cart-button{
+     background-color: green;
+     color: white;
+     border: none;
+     height: 40px;
+     width: 150px;
+     border-radius: 18px;
+     font-weight: bold;
+     font-size: 15px;
+     cursor: pointer;
+     margin-left: 8px;
+     margin-right: 8px;
+     transition: box-shadow 0.15s;
+
+ }
+ .add-to-cart-button:hover{
+     box-shadow: 5px 10px 5px  rgba(0,0,0,0.15);
+     background-color: darkslategray;
+     opacity: 0.5;
+ }
+ .add-to-cart-button:active{
+     opacity: 0.5;
+ }
+ .sign-up-button{
+     background-color: mediumvioletred;
+     color: white;
+     border: none;
+     height: 40px;
+     width: 150px;
+     border-radius: 18px;
+     font-weight: bold;
+     font-size: 15px;
+     cursor: pointer;
+     margin-left: 8px;
+     margin-right: 8px;
+     transition: box-shadow 0.15s;
+ }
+ .sign-up-button:hover{
+     box-shadow: 5px 10px 5px  rgba(0,0,0,0.15);
+     background-color: royalblue;
+     opacity: 0.5;
+ }
+ .download-button{
+     background-color: gray;
+     color: white;
+     border: none;
+     height: 40px;
+     width: 110px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-right: 8px ;
+     transition: opacity 0.15s;
+ }
+ .download-button:hover{
+     box-shadow: 5px 10px 5px  rgba(0,0,0,0.15);
+     background-color: black;
+     opacity: 0.7;
+
+ }
+ .apply-on-company-website{
+     background-color: blue;
+     color: white;
+     border: none;
+     height: 40px;
+     width: 200px;
+     border-radius: 10px;
+     cursor: pointer;
+     margin-right: 8px ;
+     transition: opacity 0.15s;
+ }
+ .apply-on-company-website:hover {
+     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.15);
+     background-color: red;
+     opacity: 0.5;
+ }

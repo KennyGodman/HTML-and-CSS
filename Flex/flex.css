@@ -1,0 +1,20 @@
+.stunner{
+    width: 100px;
+    background-color: red;
+    height: 100px;
+    flex: 1;
+}
+.heroo{
+    width: 100px;
+    background-color: blue;
+    height: 70px;
+    flex: 2;
+}
+.godman{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    height: 500px;
+    
+}
